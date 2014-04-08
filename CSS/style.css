@@ -1,0 +1,34 @@
+body{
+
+	margin: 0 auto;
+	padding: 0;
+	background: url('../Resources/Background.png') no-repeat;
+	width: auto;
+	height: 1420px;
+	position: relative;
+
+}
+
+#container{
+
+	margin-top: 40px;
+	position: absolute;
+	margin-left: 170px;
+	width: 950px;
+	background: white;
+	height: 1340px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px black;
+
+}
+
+#collage_background{
+	
+	background: url('../Resources/collageBG.png') no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 1000px;
+	position: absolute;
+
+}
+

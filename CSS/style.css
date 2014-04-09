@@ -2,7 +2,7 @@ body{
 
 	margin: 0 auto;
 	padding: 0;
-	background: url('../Resources/Background.png') no-repeat;
+	background-color: #413E3E;
 	width: auto;
 	height: 1420px;
 	position: relative;
@@ -36,7 +36,6 @@ body{
 #navigation{
 
 	width: auto;
-	
 	height: 100px;
 	position: relative;
 
@@ -82,19 +81,27 @@ body{
 #navigationMenu ul{
 
 	list-style: none;
-	text-decoration: none;
+	
 
 }
 
 #navigationMenu ul li{
 
-	color: #999595;
+	
 	display: inline-block;
 	font-family: sans-serif;
 	font-weight: normal;
 	font-size: 16px;
 	margin-left: 55px;
 	text-shadow: 0px 1px 0px black;
+	font-weight: bold;
+
+}
+
+#navigationMenu a{
+
+	text-decoration: none;
+	color: #D3CCCC;
 
 }
 
@@ -301,4 +308,180 @@ body{
 	top: 35px;
 	right: 150px;
 
+}
+
+#webQuestions{
+
+	position: relative;
+	width: auto;
+	height: 500px;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 13px;
+	color: #4D4D4D;
+
+}
+
+#whoQ{
+
+	float: left;
+	width: 270px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.questions{	
+	color: #4D4D4D;
+	font-size: 24px;
+}
+
+#rmButtonText{
+
+	position: absolute;
+	font-weight: bold;
+	padding-top: 5px;
+	left: 10px;
+}
+
+#whatQ{
+
+	float: left;
+	width: 290px;
+	height: auto;
+	
+}
+
+
+
+#whyQ{
+
+	float: left;
+	width: 270px;
+	height: auto;
+	margin-left: 20px;
+
+}
+
+#rmButtonTextWhyQ{
+
+	position: absolute;
+	font-weight: bold;
+	padding-top: 5px;
+	right: 182px;
+
+}
+
+#whatQLinks span{
+
+	padding-left: 20px;
+	line-height: 20px;
+	color: #0D708F;
+	font-size: 12px;	
+
+}
+
+#webExtraInfo{
+	
+	margin-left: 40px;
+	margin-right: 40px;
+	height: 212px;
+	width: auto;
+	position: relative;
+}
+
+#footer{
+	
+	width: auto;
+	height: 50px;
+	position: relative;
+	border-top: 1px solid #CCCCCC;
+	font-size: 12px;
+	color: #4D4D4D;
+}
+
+#footerContent{
+
+	margin-left: 40px;
+	margin-right: 40px;
+	line-height: 25px;
+}
+
+.icons{
+
+	padding-left: 5px;
+}
+
+#footerContent span{
+
+	margin-right: 180px;
+
+}
+
+#bLogo2{
+
+
+	position: absolute;
+	right: 40px;
+}
+
+#browseSite{
+
+	float: left;
+	width: 240px;
+	height: auto;
+	color: #4D4D4D;
+}
+#browseSite p{
+
+
+	font-size: 13px;
+	line-height: 20px;
+}
+
+#testimonials{
+
+	float: left;
+	width: 290px;
+	height: auto;
+	color: #4D4D4D;
+	margin-right: 30px;
+}
+
+#testimonials p{
+
+	font-size: 13px;
+	
+}
+#testimonials b{
+
+	color: black;
+}
+
+#blog{
+	
+	float: left;
+	width: 310px;
+	height: auto;
+	color: #4D4D4D;
+}
+
+#blog p{
+
+	font-size: 13px;
+	
+}
+
+#blog span{
+
+	color: #0D708F;
+}
+
+#activeNav{
+
+	background: #413E3E;
+	width: 56px;
+	height: 24px;
+	padding-left: 12px;
+	padding-top: 5px;
+	border-radius: 10px;
 }

@@ -408,6 +408,7 @@ body{
 
 #footer{
 	
+	position: relative;
 	background: #535353;
 	width: auto;
 	height: 50px;
@@ -421,7 +422,8 @@ body{
 
 #footerContent{
 
-	margin-left: 40px;
+	position: absolute; 
+	left: 40px;
 	margin-right: 40px;
 	line-height: 25px;
 	z-index: 10;
@@ -440,9 +442,10 @@ body{
 
 #bLogo2{
 
-
+	top: 12px;
 	position: absolute;
-	right: 40px;
+	right: -196px;
+	
 }
 
 #browseSite{
@@ -925,6 +928,7 @@ body{
 
 #firstLayer{
 	
+	position: relative;	
 	margin-top: 40px;
 	margin-bottom: 40px;
 	float: left;
@@ -935,6 +939,7 @@ body{
 
 #secondLayer{
 
+	position: relative;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	float: left;
@@ -947,6 +952,7 @@ body{
 
 #thirdLayer{
 
+	position: relative;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	float: left;
@@ -1027,3 +1033,9 @@ body{
 	border-radius: 5px;
 
 }
+
+/***********
+	
+---End of Portfolio page style
+
+***********/

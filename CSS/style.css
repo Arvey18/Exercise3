@@ -576,11 +576,12 @@ body{
 	width: 700px;
 	height: 92%;
 	position: relative;
-	border-right: 20px solid #CCC;
+	box-shadow: 20px 20px 40px 0px #CCC;
+	/*border-right: 20px solid #CCC;*/
 
 }
 
-#leftContent p{
+#leftContent p{ 
 	
 	color: #4D4D4D;
 	font-size: 14px;
@@ -604,7 +605,7 @@ body{
 
 #sideNavTitle{
 	
-	left: -20px;
+	left: 0px;
 	top: 50px;
 	position: absolute;
 	background: #555555;
@@ -627,7 +628,8 @@ body{
 	padding-left: 20px;
 	line-height: 20px;
 	color: #0D708F;
-	font-size: 12px;	
+	font-size: 12px;
+
 
 }
 
@@ -635,11 +637,12 @@ body{
 
 	position: absolute;
 	top: 100px;
+	left: 40px;
 }
 
 #clientNavTitle{
 	
-	left: -20px;
+	left: 0px;
 	top: 295px;
 	position: absolute;
 	background: #555555;
@@ -666,7 +669,7 @@ body{
 }
 
 .clientImg{
-
+	margin-left: 40px;
 	margin-bottom: 20px;
 }
 
@@ -675,3 +678,171 @@ body{
 ---End About Us page style
 
 ****************/
+
+/****************
+
+---Contact Us page style
+
+****************/
+
+.userInput{
+
+	display: block;
+	
+	font-size: 30px;
+	background: #555555;
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	color: #FFFFFF;
+}
+
+#inputArea h4{
+	
+	color: #4D4D4D;
+	margin-top: 50px;
+	margin-left: 40px;
+
+}
+
+#message{
+
+	margin-left: 40px;
+	height: 220px;
+	width: 375px;
+	background: #555555;
+	color: #FFFFFF;
+	border-radius: 5px;
+	resize: none;
+
+}
+
+#send{
+
+	position: absolute;
+	left: 67px;
+	bottom: 215px;
+	color: #4D4D4D;
+	z-index: 10;
+	font-weight: bold;
+	font-size: 16px;
+
+}
+
+#sendBG{
+
+	position: absolute;
+	left: 40px;
+	bottom: 210px;
+}
+
+#cuActiveNav{
+
+ 	background: #413E3E;
+	width: 66px;
+	height: 19px;
+	padding-left: 8px;
+	padding-top: 5px;
+	border-radius: 5px;
+
+}
+
+#cusideNavTitle{
+	
+	left: 0px;
+	top: 50px;
+	position: absolute;
+	background: #555555;
+	height: 30px;
+	width: 111%;
+
+}
+
+#cusideNavTitle h2{
+
+	left: 20px;
+	font-size: 18px;
+	position: absolute;
+	top: -12px;
+
+}
+
+#cusideNavLinks{
+
+	position: absolute;
+	left: 40px;
+	top: 90px;
+}
+
+#cusideNavLinks p{
+
+	font-size: 14px;
+	color: #4D4D4D;
+	line-height: 20px;
+
+}
+
+#cuContactDetailsTitle{
+	
+	left: 0px;
+	top: 200px;
+	position: absolute;
+	background: #555555;
+	height: 30px;
+	width: 111%;
+
+}
+
+#cuContactDetailsTitle h2{
+
+	left: 20px;
+	font-size: 18px;
+	position: absolute;
+	top: -12px;
+
+}
+
+#cuContactDetails{
+	
+	left: 40px;
+	position: absolute;
+	top: 240px;
+}
+
+#cuContactDetails p{
+
+	font-size: 14px;
+	color: #4D4D4D;
+	line-height: 20px;
+
+}
+
+#cuConnect{
+	
+	left: 0px;
+	top: 360px;
+	position: absolute;
+	background: #555555;
+	height: 30px;
+	width: 111%;
+
+}
+
+#cuConnect h2{
+
+	left: 20px;
+	font-size: 18px;
+	position: absolute;
+	top: -12px;
+
+}
+
+#cuConnectLinks{
+	
+	left: 40px;
+	position: absolute;
+	bottom: 435px;
+
+}

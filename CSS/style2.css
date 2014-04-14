@@ -1,0 +1,507 @@
+body{
+
+	margin: 0;
+	padding: 0;
+	background-color: #0e0e0e;
+	font-family: sans-serif;
+
+}
+
+
+/****************
+
+---Home page style
+
+****************/
+#container{
+
+	top: 40px;
+	margin: 0 auto;
+	position: relative;
+	width: 950px;
+	background: white;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px black;
+
+}
+
+#collageBackground{
+	
+	background: url('../Resources/collageBG.png') no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 1435px;
+	position: absolute;
+
+}
+
+#navigation{
+
+	width: auto;
+	height: 100px;
+	position: relative;
+
+}
+
+#telBg{
+
+	position: absolute;
+	right: 0px;
+
+
+}
+
+
+/*Navigation_Menu style*/
+
+#navigationMenu{
+
+	position: absolute;
+	top: 40px;
+	right: 30px;
+
+}
+
+#navigationMenu ul{
+
+	list-style: none;
+	
+
+}
+
+#navigationMenu ul li{
+
+	
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	margin-left: 55px;
+	font-weight: bold;
+
+}
+
+#navigationMenu a{
+
+	text-decoration: none;
+	color: #575757;
+
+}
+
+#title{
+
+	font-family: sans-serif;	
+	position: absolute;
+	 background: -webkit-linear-gradient( #CCCCCC, #000000, #adadad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	left: 90px;
+
+}
+
+#subTitle{
+
+	font-size: 14px;
+	display: block;
+
+}
+
+#bLogo{
+
+	position: absolute;
+	top:27px;
+	left: 40px;
+
+}
+
+#content{
+	position: relative;
+
+}
+
+#webExtraInfo{
+
+	background: #ededed;
+	height: 212px;
+	width: auto;
+	position: relative;
+	border-bottom: 1px solid #C4B7B7;
+	border-top: 1px solid #818181;
+
+}
+
+#webExtraInfoContent{
+	
+	position: absolute;
+	left: 0px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+
+
+#footer{
+	
+	position: relative;
+	margin-bottom: 40px;
+	background: #ededed;
+	width: auto;
+	height: 50px;
+	position: relative;
+	border-top: 1px solid #FFFFFF;
+	font-size: 12px;
+	color: #575757;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;  
+}
+
+#footerContent{
+
+	position: absolute; 
+	left: 40px;
+	margin-right: 40px;
+	line-height: 25px;
+	z-index: 10;
+}
+
+.icons{
+
+	padding-left: 5px;
+}
+
+#footerContent span{
+
+	margin-right: 180px;
+
+}
+
+#bLogo2{
+
+	top: 12px;
+	position: absolute;
+	right: -196px;
+	
+}
+
+#browseSite{
+
+	float: left;
+	width: 240px;
+	height: auto;
+	color: #575757;
+}
+#browseSite p{
+
+
+	font-size: 13px;
+	line-height: 20px;
+}
+
+#testimonials{
+
+	float: left;
+	width: 290px;
+	height: auto;
+	color: #575757;
+	margin-right: 30px;
+}
+
+#testimonials p{
+
+	font-size: 13px;
+	line-height: 20px;
+	
+}
+#testimonials b{
+
+	color: black;
+}
+
+#blog{
+	
+	float: left;
+	width: 310px;
+	height: auto;
+	color: #575757;
+}
+
+#blog p{
+
+	font-size: 13px;
+	
+}
+
+#blog span{
+
+	color: #0f4db6;
+}
+
+#activeNav{
+
+	background: -webkit-linear-gradient(top, #236aca 1%,
+		#003986 40%,#003986 62%,#236aca 100%);
+	box-shadow: 0px 2px 2px -1px #818181;
+	border: 1px solid black;
+	left: 90px;;
+	width: 43px;
+	height: 19px; 
+	padding-left: 8px;
+	padding-top: 5px;
+	box-shadow: 0px 2px 2px -1px #818181;
+	border-radius: 5px;
+
+}
+
+#activeNavTextColor{
+
+	color: white;
+
+}
+
+#navigationMenu a:hover{
+
+	color: black;
+}
+
+/****************
+
+---End Home page style
+
+****************/
+
+
+#auContentTitle img{
+	top:0;
+	left: 0px;
+	position: relative;
+	height: 78px;
+	width: 950px;
+	
+	
+}
+
+#auContentTitle h2{
+
+	position: absolute;
+	z-index: 10;
+	color: #FFFFFF;
+	top: 5px;
+	left: 40px;
+
+
+}
+
+#auContentTitle em{
+	position: absolute;
+	right: 40px;
+	font-size: 20px;
+	color: #FFFFFF;
+	top: 27px;
+	z-index: 10;
+}
+
+
+/***********
+	
+---Services page style
+
+***********/
+
+#servicesMainMenuActiveNav{
+	
+	background: -webkit-linear-gradient(top, #236aca 1%,
+		#003986 40%,#003986 62%,#236aca 100%);
+	box-shadow: 0px 2px 2px -1px #818181;
+	border: 1px solid black;
+	width: 69px;
+	height: 19px;
+	padding-left: 8px;
+	padding-top: 5px;
+	border-radius: 5px;
+
+}
+
+#servicesContent{
+
+	position: relative;
+	height: 1270px;
+	color: #575757;
+	
+}
+
+
+#servicesFirstContent{
+
+	width: auto;
+	height: 430px;
+	box-shadow: 0px 15px 20px -9px #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+
+}
+
+#servicesSecondContent{
+
+	width: auto;
+	height: 430px;
+	box-shadow: 0px 15px 20px -9px #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+
+}
+
+#servicesThirdContent{
+
+	width: auto;
+	height: 355px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+
+
+#firstService{
+	
+	margin-left: 40px;
+	width: 280px;
+	height: 415px;
+	float: left;
+
+}
+
+#secondService{
+
+	width: 270px;
+	height: 415px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+#thirdService{
+
+	width: 280px;
+	height: 415px;
+	float: left;
+
+}
+
+#fourthService{
+	
+	position: relative;
+	margin-left: 40px;
+	width: 280px;
+	height: 415px;
+	float: left;
+
+}
+
+#fifthService{
+
+	width: 270px;
+	height: 415px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+#sixthService{
+
+	width: 280px;
+	height: 415px;
+	float: left;
+
+}
+
+#firstBenefits{
+
+	width: 430px;
+	height: 350px;
+	float: left;
+	margin-right: 20px;
+	
+
+}
+
+#secondBenefits{
+
+	width: 420px;
+	height: 350px;
+	float: left;
+
+}
+
+.services-description{
+
+	font-size: 12px;
+	line-height: 20px;
+
+}
+
+#tirgumim{
+
+	border: 1px solid #CCCCCC;
+	width: 100%;
+	height: 34.5%;
+}
+
+.portfolio-button{
+
+	position: relative;
+	left: 0px;
+	color: #575757;
+	height: 30px;
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #CCCCCC 100%);
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0px 3px 2px -1px #818181;
+
+}
+
+.hire-button{
+	
+	position: relative;
+	right: -68px;
+	color: #575757;
+	height: 30px;
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #CCCCCC 100%);
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0px 3px 2px -1px #818181;
+
+}
+
+.check{
+
+	margin-top: 10px;
+	position: absolute;
+}
+
+.benefits-description{
+	
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.second-benefits-description{
+
+	position: relative;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 12px;
+	line-height: 15px;
+	top: 56px;
+
+}
+
+.second-check{
+
+	margin-top: 70px;
+	position: absolute;
+}
+

@@ -149,8 +149,8 @@ body{
 	
 }
 
-#productImg{
-	
+.product-img {
+
 	position: absolute;
 	z-index: 10;
 	width: auto;
@@ -996,7 +996,7 @@ body{
 
 	position: relative;
 	height: 913px;
-	box-shadow: 0px 25px 23px -12px #CCCCCC;
+	box-shadow: 0px 17px 23px -12px #DBDBDB;
 
 }
 

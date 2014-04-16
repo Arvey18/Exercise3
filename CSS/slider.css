@@ -1,0 +1,18 @@
+/*************
+ *
+ * -slider style
+ *
+ *************** */
+body {
+  background: #cccccc;
+  margin: 0;
+  padding: 0; }
+
+#slider {
+  position: relative;
+  height: 332px;
+  width: 500px; }
+  .product-img {
+    position: absolute; }
+
+
